@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap');
+
+* {
+    font-family: 'Baloo Thambi 2', Arial;
+}
+
+.sheet-container {
+    width: 800px;
+}
+
+img {
+    width: 300px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 2px;
+    resize: horizontal;
+    text-align: left;
+    vertical-align: top;
+}
+
+.textarea {
+	font-size: 18px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 20px;
+	overflow-wrap: break-word;
+	overflow: hidden;
+	padding: 2px;
+	resize: vertical;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-line;
+}
+	
+.trait {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px;
+    resize: horizontal;
+    text-align: left;
+    vertical-align: top;
+}
+
+.optional {
+    display: hidden;
+}
+
+.charsheet .sheet-flex-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.fixed {
+  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+}
+
+.trait {
+  flex:
+}
+    
