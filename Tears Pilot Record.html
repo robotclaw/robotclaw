@@ -1,0 +1,229 @@
+<h1>The Tears of a Machine SC - Pilot Record</h1>
+<img src="https://raw.githubusercontent.com/robotclaw/robotclaw/image/ToaM%20SC%20Logo%20-%20BW%20500pw.png"/>
+<h2>Identity</h2>
+<!-- Display of pilot
+<textarea id="hold" rows="1" cols="50">
+    </textarea>
+-->
+    
+<!-- Editable entries -->
+<span class="fixed"> I am </span> 
+<!-- Name -->
+	<input type="text" name="attr_character_name" value="name" class="info"/>
+<span class="fixed">, a </span>
+<!-- Age -->
+	<input type="number" name="attr_Age" min="17" max="21" value="age" class="info"/>
+<span class="fixed"> year old </span>
+<!-- Adjective -->
+</div>
+	    <input type="text" name="attr_Adj1" value="adjective," class="trait"/>
+<!--
+<fieldset class="repeating_adjective">
+	    <input type="text" name="attr_Adj" value="adjective," class="trait"/>
+    </fieldset>
+-->
+</div>
+
+<!-- Archetypes -->
+</div>
+        <input type="text" name="attr_Arc1" value="archetype," class="trait"/>
+<!--
+	<fieldset class="repeating_archettype">
+	    <input type="text" name="attr_Arc" value="archetype," class="trait"/>
+    </fieldset>
+-->
+</div>
+
+<span class="fixed"> pilot good at </span>
+<!-- Verbs -->
+<div>
+       <input type="text" name="attr_Vrb1" value="verb," class="trait"/>
+<span>,</span>
+       <input type="text" name="attr_Vrb2" value="verb," class="trait"/>
+<span>, and </span>
+	<input type="text" name="attr_Vrb3" value="verb," class="trait"/>
+<span>.
+    
+<!--
+    <fieldset class="repeating_verb">
+        <input type="text" name="attr_Vrb" value="verb," class="trait"/>   
+</fieldset>
+-->
+
+	<!--input type="text" name="attr_Vrb1"/>
+<span>, </span>
+	<input type="text" name="attr_Vrb4"/>
+<span>, </span>
+	<input type="text" name="attr_Vrb5"/>
+<span>, </span>
+	<input type="text" name="attr_Vrb6"/>
+<span>, </span>
+    <input type="text" name="attr_Vrb7"/>
+<span>, </span>
+    <input type="text" name="attr_Vrb2"/>
+<span>, and </span>
+	<input type="text" name="attr_Vrb3"/>
+<span>.</span -->
+
+</div>
+<!-- Hope -->
+<h2>Hope</h2>
+	<input type="text" name="attr_Hope" class="trait"/>
+<span class="fixed"> matters to me, so I will </span>
+<!-- Path -->
+	<textarea id="Path" name="attr_Path"
+	          rows="1" cols="100">
+	</textarea>
+	
+<span>.</span>
+
+<!-- Links -->
+<h2>Links</h2>
+	<!-- 1 -->
+<div>
+    	<input type="text" name="attr_Lnk1" value="name" id="trait"/>
+	            <span> is my </span>
+		<input type="text" name="attr_Rel1" value="relationship"/>
+	            <span>, because </span>
+		<textarea id="How" name="attr_How1" rows="1" cols="100" value="how">
+		</textarea>
+	<span>.</span>
+	
+<!--
+	<fieldset class="repeating_link">
+	    <input type="text" name="attr_Lnk" value="name" id="trait"/>
+	<span> is my </span>
+		<input type="text" name="attr_Rel" value="relationship"/>
+	<span>, because </span>
+		<textarea id="How" name="attr_How" rows="1" cols="100" value="how">
+		</textarea>
+	<span>.</span>
+    </fieldset>
+    
+-->
+    
+</div>
+	<!-- 2 
+		<input type="text" name="attr_Lnk2"/>
+	<span> is my </span>
+		<input type="text" name="attr_Rel2"/>
+	<span>, because </span>
+		<textarea id="How2" name="attr_How2" rows="1" cols="100">
+		</textarea>
+	<span>.</span>
+-->
+	<!-- 3 
+		<input type="text" name="attr_Lnk3"/>
+	<span> is my </span>
+		<input type="text" name="attr_Rel3"/>
+	<span>, because </span>
+		<textarea id="How3" name="attr_How3" rows="1" cols="100">
+		</textarea>
+	<span>.</span> 
+-->
+<h2>Condition</h2>
+<!-- EGO -->
+<span>Ego:</span>
+	<input type="number" name="attr_Ego" min="0" max="5" value="3"/>
+<!-- ANGST -->
+<span>Angst:</span>
+	<input type="number" name="attr_Ang" min="0" max="5" value="0"/>
+<!-- Troubles -->
+<span>Troubles: </span>
+<div>
+    <fieldset class="repeating_trouble">
+	    <input type="text" name="attr_Trb" value=""/>
+	<!-- input type="text" name="attr_Trb2"/>
+	<input type="text" name="attr_Trb3"/>
+	<input type="text" name="attr_Trb4"/ -->
+	</fieldset>
+</div>
+<!-- Details -->
+<h2>Details</h2>
+<textarea id="Det" name="Det"
+          rows="5" cols="50">
+</textarea>
+
+<!-- Saint -->
+<h2>Saint</h2>
+
+<!-- Callsign -->
+<span>I pilot the Saint</span>
+	<input type="text" name="attr_Cls"/>
+<span>, in </span>
+
+<!-- Company -->
+	<input type="text" name="attr_Com"/>
+<span> company. </span>
+
+<!-- Gear -->
+	<span>I equip </span>
+	
+	<!-- 1 -->
+		<div>
+		        <input type="text" name="attr_Ger1"/>
+	        <span> for </span>
+		        <input type="text" name="attr_Use1"/>
+	        <span>, <span>
+	    </div>
+	<input type="checkbox" name="attr_Spd1" value="1" checked />
+	
+	<!-- 2 -->
+	    <div>
+		        <input type="text" name="attr_Ger2"/>
+	        <span> for </span>
+		        <input type="text" name="attr_Use2"/>
+	        <span>, <span>
+		</div>
+	<input type="checkbox" name="attr_Spd2" value="1" checked />
+	
+	<!-- 3 -->
+	    <div>
+		        <input type="text" name="attr_Ger3"/>
+	        <span> for </span>
+		        <input type="text" name="attr_Use3"/>
+	    </div>
+	<input type="checkbox" name="attr_Spd3" value="1" checked />
+	
+	<span>.</span>
+	
+<!-- ID -->
+<span> Id: </span>
+	<input type="number" name="attr_Id" min="0" max="5" value="0"/>
+<!-- Damage -->
+<span> Damaged: </span>
+	<input type="checkbox" name="attr_Dam" value="0" />
+<h2>Design</h2>
+
+<!-- Armor -->
+<label for="Arm">My armor is</label>
+<textarea id="Arm" name="Arm"
+          rows="2" cols="50">
+</textarea>
+<!-- Helmet -->
+<label for="Helm">and my helmet is</label>
+<textarea id="Helm" name="attr_Helm"
+          rows="2" cols="50">
+</textarea>
+
+<!-- Checkbox Script -->
+<script type="text/worker">
+function DoCheckUncheckDisplay(d,dchecked,dunchecked)
+{
+   if( d.checked == true )
+   {
+      document.getElementById(dchecked).style.display = "block";
+      document.getElementById(dunchecked).style.display = "none";
+   }
+   else
+   {
+      document.getElementById(dchecked).style.display = "none";
+      document.getElementById(dunchecked).style.display = "block";
+   }
+}
+
+on("sheet:opened,", function() {
+        getAttrs(["name"], function(values) {
+    } 
+
+</script>
